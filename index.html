@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        font-family: "inter";
+      }
+
+      body{
+        height: 100vh;
+      }
+
+      
+      .container-banner{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 100px;
+      }
+
+      .kiri-banner h1 {
+        font-size: 50px;
+      }
+
+      .kiri-banner p{
+        width: 400px;
+        margin-bottom: 40px;
+        color: grey;
+      }
+
+      .kiri-banner button{
+        color: white;
+        background-color: rgb(33, 75, 225);
+        font-weight: 900;
+        border-style: none;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 8px;
+        
+      }
+
+      .icon-banner {
+        display: flex;
+        margin-bottom: 30px;
+      }
+
+      .facebook {
+        margin-right: 20px;
+      }
+
+      .twitter {
+        margin-right: 20px;
+      }
+
+      .instagram {
+        margin-right: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <banner id="banner">
+      <div class="container-banner">
+        <div class="kiri-banner">
+          <h1>Welcome, Garuda!</h1>
+          <p>
+            Discover amazing experiences, exceptional designs, and
+            transformative solutions tailored just for you.
+          </p>
+          <div class="icon-banner">
+            <img
+              src="./images/facebook-app-symbol.png"
+              width="40"
+              class="facebook"
+            />
+            <img src="./images/twitter.png" width="40" class="twitter" />
+            <img src="./images/instagram.png" width="40" class="instagram" />
+            <img src="./images/linkedin.png" width="40" class="linkedin" />
+          </div>
+          <button>Explore now</button>
+        </div>
+
+        <div class="kanan-banner">
+            <img src="./images/Frame 1261153003.png" height="400">
+        </div>
+      </div>
+    </banner>
+  </body>
+</html>
